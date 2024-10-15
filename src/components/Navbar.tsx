@@ -66,7 +66,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 {mobileDrawerOpen && (
-                    <div className="rounded-md bg-blue-900 lg:hidden">
+                    <div className="rounded-md bg-blue-900 lg:hidden" onClick={() => SetMobileDrawerOpen(false)}>
                         <ul className="flex flex-col items-center">
                             {NAV_LINKS.map((item: any, index: number) => (
                                 <li key={index} className="py-4">
