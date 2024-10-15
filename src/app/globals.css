@@ -63,6 +63,8 @@
     @apply border-border;
   }
 }
+
+
   body {
     @apply bg-background text-foreground; 
 
@@ -81,7 +83,7 @@
 
 .works {
   background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("/works.jpg");
-  /* background-position: 50% 30%; */
+  /* background-position: 60% 50%; */
   background-size: cover;
 }
 
@@ -97,3 +99,71 @@
   border-radius: 10px;
 }
 
+/* .aboutUs {
+  background-image:linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("/works.jpg");
+  background-position: 50% 100%;
+  background-size: cover;
+} */
+
+.contactbg{
+  background-image:linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("/Sign-in.jpg");
+  background-position: 50% 40%;
+  background-size: cover;
+  height:80vh;
+  width: 100vw;
+
+
+}
+
+.signinbg{
+  background-image:linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("/Signin.jpg");
+  background-position: 50% 40%;
+  background-size: cover;
+  height:60vh;
+  width: 60vw;
+  
+}
+
+.signupbg{
+  background-image:linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("/Signup.jpg");
+  background-position: 50% 40%;
+  background-size: cover;
+  height:60vh;
+  width: 60vw;
+}
+
+#sign-in{
+  /* box-shadow: 10px (X axis = + right & - left) 10px (Y axis = + down & - up) 5px (Blur/Smudge) rgba(225, 18, 18, 0.75) (Color); */
+     box-shadow: 10px 10px 20px 30px rgba(150, 12, 12, 0.75),  -10px 10px 20px 5px rgba(4, 6, 37, 0.75); 
+}
+
+#sign-in{
+  /* box-shadow: 10px (X axis = + right & - left) 10px (Y axis = + down & - up) 5px (Blur/Smudge) rgba(225, 18, 18, 0.75) (Color); */
+     box-shadow: 10px 10px 20px 10px rgba(150, 12, 12, 0.75),  -10px -10px 20px 0px rgba(58, 64, 155, 0.75); 
+}
+
+.signupbg{
+  /* box-shadow: 10px (X axis = + right & - left) 10px (Y axis = + down & - up) 5px (Blur/Smudge) rgba(225, 18, 18, 0.75) (Color); */
+  box-shadow: 15px 20px 20px rgba(125, 8, 41, 0.75),  -20px -15px 20px rgba(30, 4, 77, 0.75); 
+}
+
+#input{
+  box-shadow: 15px 20px 20px rgba(125, 8, 41, 0.75),  -20px -15px 20px rgba(30, 4, 77, 0.75);
+}
+
+
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .signinbg{
+    height: auto;
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .signupbg{
+    height: auto;
+    width: 95%;
+  }
+}

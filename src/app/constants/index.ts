@@ -1,10 +1,11 @@
 export const NAV_LINKS = [
-  { title: "How it works", url: "#how-it-works" },
-  { title: "Featured", url: "#featured-properties" },
-  { title: "Services", url: "#services" },
-  { title: "About", url: "#about-us" },
-  { title: "Reviews", url: "#testimonials" },
-  { title: "Faq", url: "#faq" },
+  { title: "How it works", url: "/#how-it-works" },
+  { title: "Featured", url: "/#featured-properties" },
+  { title: "Services", url: "/#services" },
+  { title: "About", url: "/#about-us" },
+  { title: "Reviews", url: "/#testimonials" },
+  { title: "Faq", url: "/#faq" },
+  { title: "Contact Us", url: "/contact-us" },
 ];
 
 export const HERO = {

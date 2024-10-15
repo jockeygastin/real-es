@@ -5,7 +5,7 @@ const HowItWorks = () => {
   return (
     <div className="container mx-auto my-10 border-b pd-10" >
       <div className="h-[10vh]" id={"how-it-works"}></div>
-      <h2 className="text-center text-3xl tracking-tighter sm:text-4xl">
+      <h2 className="text-center text-3xl tracking-tighter sm:text-5xl">
         {HOW_IT_WORKS.title}
       </h2>
       <p className="mx-auto my-10 max-w-4xl text-center text-neutral-800">

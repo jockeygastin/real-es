@@ -5,9 +5,6 @@ import { MdOutlineBathtub } from "react-icons/md";
 import { IoBedOutline, IoCarSportOutline } from "react-icons/io5";
 import { BiArea } from "react-icons/bi";
 
-
-
-
 import {
   Carousel,
   CarouselContent,
@@ -81,7 +78,7 @@ const page = () => {
         {/* Second box */}
         <div className="w-[30%]">
           <div className="w-full">
-            <div className="container top-10 my-9 p-4 ">
+            <div className="container top-10 my-9 p-4 bg-green-200 rounded-lg">
               <p>Brief Information</p>
               <span className="font-semibold">Owner:</span>
               Real estate agency
@@ -115,15 +112,19 @@ const page = () => {
               </div>
               <div className="flex flex-row gap-14 p-4">
                 <p className="text-sm">1-day rental
-                  <strong className="text-lg">$80</strong>/night
+                  <strong className="text-lg">
+                    <br />
+                    $80</strong>/night
                 </p>
 
                 <p className="text-sm">Week rental
-                  <strong className="text-lg">$70</strong>/week
+                  <strong className="text-lg">
+                    <br />
+                    $70</strong>/week
                 </p>
               </div>
 
-              <button className="bg-purple-900 text-white hover:bg-black py-2 px-12 rounded-lg w-[60%]">Show Contacts</button>
+              <button className="bg-purple-900 text-white hover:bg-black py-2 px-12  rounded-lg w-[60%]">Show Contacts</button>
             </div>
           </div>
         </div>

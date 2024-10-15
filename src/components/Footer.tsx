@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-r from-pink-600 via-purple-900 to-orange-800 text-white pt-8">
+    <div className="bg-gradient-to-r from-pink-600 via-purple-800 to-orange-600 text-white pt-8 mt-16">
         <div className="container mx-auto">
             <div className="flex flex-wrap border-b border-orange-200">
                 <div className="w-full sm:w-1/2 lg:w-6/12 p-4">
@@ -13,16 +13,16 @@ const Footer = () => {
                 <p className="lg:max-w-sm py-8 text-sm">{FOOTER.description}</p>
                        <h1 className="text-2xl font-bold mb-4 ml-4">Social link</h1>
                 <div className="flex flex-wrap gap-4">
-                  <a href="https://facebook.com" target="-blank">
+                  <a href="https://facebook.com" target="-blank" className="hover:text-black">
                  <FacebookIcon/> 
                  </a> 
-                 <a href="https://github.com" target="-blank">
+                 <a href="https://github.com" target="-blank" className="hover:text-black">
                  <GithubIcon/>
                  </a>
-                 <a href="https://instagram.com" target="-blank">
+                 <a href="https://instagram.com" target="-blank" className="hover:text-black">
                  <InstagramIcon/>
                  </a>
-                 <a href="https://x.com" target="-blank">
+                 <a href="https://x.com" target="-blank" className="hover:text-black">
                  <TwitterIcon/> 
                  </a>
                 </div>
